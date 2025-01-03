@@ -1,16 +1,32 @@
-<h3>07.AT.R - Review Program</h3>
-<p>Your program will ask the user for their name, age, favorite 3+ digit number, and GPA  (cumulative, weighted). The program will then print out a set of messages based on the following:  </p>
-<ol>
-  <li>The first line of output must include the name of the user and a welcome message.</li>
-<li>The second line of output should tell the user either “Congratulations” for being 18 and  being able to vote or it should tell them how many more years they will have to wait until they  can vote.  </li>
-<li>The third line of output should output to the user one of five different, school appropriate,  positive or motivating messages based on their cumulative GPA – the breakdown points are  4.5+, 4.0 – 4.49, 3.5 – 3.99, 3.0 – 3.49, and anything below a 3.0.  </li>
-<li>The last output will be all the multiples of the length of the person’s name up to and possibly  including their favorite number. The multiples should be labeled and appear on a single line  with commas separating them. (If there are so many multiples that they go to an additional  line, that is ok.)  </li>
-</ol>
-
-  <p>The finished assignment is worth 30 points.For this and the final assignment - no grade sheet is being provided prior to the  assignment because this is a test of your knowledge of Java and the grade sheet would give away details about the assignment. But, here are some important reminders to think about when coding (these do not need to be included in the plan, just your final program):  </p>
-<ul><li>Make sure that you include a comment block with your name, date, pd, name of the class, and  purpose of the class.  </li>
-<li>Also make sure that you correctly import any necessary classes/packages and comment on why  you are importing them.  </li>
-<li>Make sure that the program checks that the user’s input is legal (think carefully – what could  stupid users try to do?). </li> 
-<li>Make sure that you use the correct variable types and that you clearly label all input and output. 
-</li></ul>
-
+<p><strong>Description:</strong> You will use the Queue interface and the Stack class provided in the Java API to process through a large set of data and organize the items being inputted.<br /><strong></strong></p>
+<p><strong>Directions: </strong>Read ALL of the following directions before beginning your pseudocode.&nbsp; There will be TWO grades - Pseudocode and Code.</p>
+<p>1. Create an algorithm/pseudocode for each of the java files (Train.java and MyProgram.java) in this program. Keep in mind that the program should outline where loops and if statements will appear, you will also outline what methods you are writing - include modifiers, return types, and parameters along with code for the method.</p>
+<p><br />2. Use the description below to write your pseudocode.&nbsp; You will be given 3 files - Train.java, MyProgram.java, and data.txt.&nbsp; You will also be given the code to read from the text file.</p>
+<p>You have been tasked with processing a set of text input, the data for all the train cars that are entering a train station.&nbsp; Each of the train cars will have the following information:</p>
+<ul>
+    <li>Car Name/Number - will always be in the format "CAR#####"</li>
+    <li>Contents</li>
+    <li>Origin City</li>
+    <li>Destination City</li>
+    <li>Weight</li>
+    <li>Miles Traveled</li>
+</ul>
+<p>The file will end with the text "END"</p>
+<p>As cars enter the train station, it is your responsibility to create an instance of a Train (you will write the Train class).&nbsp;</p>
+<ul>
+    <li>AP Java - Unit 2 Notes on Classes = <a class="inline_disabled" href="https://docs.google.com/presentation/d/15cwDeaHsdKHTCFDozNhkXPqpIQib9JERErO1X95UG5M/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/presentation/d/15cwDeaHsdKHTCFDozNhkXPqpIQib9JERErO1X95UG5M/edit?usp=sharing</a></li>
+</ul>
+<p>You must read in ALL input before you can process the cars.&nbsp; When processing the cars, you will use the following information/rules:</p>
+<ul>
+    <li><span>The main line is track 0 - this is where you input will all be stored initially - think about what type of data structure should be used for this.</span></li>
+    <li><span>Cars that have over 700 miles are put on track 1 for inspection, destination does not matter.&nbsp; After all cars have been initially processed, you will inspect cars and then add them to trains that have room within the weight limit remaining.</span></li>
+    <li><span>There are 4 more tracks, cars are moved to these tracks using the following rules as long as there is room within the weight limit of that track (this will be defined for you in the file you're given - "limitTrackA", "limitTrackB", "limitTrackC", and "limitTrackD".</span>
+        <ul>
+            <li><span>Track A contains only cars destined for Trenton. </span></li>
+            <li><span>Track B will contain cars destined for Charlotte.</span></li>
+            <li><span> Track C will contain cars destined for Baltimore. </span></li>
+            <li><span>Track D will contain cars that are going to other destinations or that cannot be delivered due to weight limits on that track.</span></li>
+        </ul>
+    </li>
+</ul>
+<p><span><em><strong>SUBMIT plan to your teacher using the document for this assignment.</strong></em></span></p>

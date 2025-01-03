@@ -14,7 +14,7 @@ public class MyProgram {
 		//TODO: Implement Program Requirements Here
 		Scanner x = new Scanner(System.in);
 		try{
-			File f = new File("src/data.txt");
+			File f = new File("HelloWorldProject/src/data.txt");
 			x = new Scanner (f);
 			String val = x.nextLine();
 			System.out.println(val);
