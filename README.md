@@ -20,11 +20,11 @@
 <ul>
     <li><span>The main line is track 0 - this is where you input will all be stored initially - think about what type of data structure should be used for this.</span></li>
     <li><span>Cars that have over 700 miles are put on track 1 for inspection, destination does not matter.&nbsp; After all cars have been initially processed, you will inspect cars and then add them to trains that have room within the weight limit remaining.</span></li>
-    <li><span>There are 4 more tracks, cars are moved to these tracks using the following rules as long as there is room within the weight limit of that track (this will be defined for you in the file you're given - "limitTrackA", "limitTrackB", "limitTrackC", and "limitTrackD".</span>
+    <li><span>There are 4 more tracks, cars are moved to these tracks using the following rules as long as there is room within the weight limit of that track (this will be defined for you in the file you're given - "limitTrackA", "limitTrackB", and "limitTrackC").  The fourth track, Track D has no limit.</span>
         <ul>
             <li><span>Track A contains only cars destined for Trenton. </span></li>
             <li><span>Track B will contain cars destined for Charlotte.</span></li>
-            <li><span> Track C will contain cars destined for Baltimore. </span></li>
+            <li><span>Track C will contain cars destined for Baltimore. </span></li>
             <li><span>Track D will contain cars that are going to other destinations or that cannot be delivered due to weight limits on that track.</span></li>
         </ul>
     </li>
